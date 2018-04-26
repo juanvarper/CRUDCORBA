@@ -154,6 +154,8 @@ public class personaFRM extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        personaFRM per = new personaFRM();
+        per.insertarPersona(parseInt(txtID.getText()), txtnombre.getText(), apellidos, ERROR, direccion);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
